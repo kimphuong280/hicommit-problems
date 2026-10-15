@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include <stdio.h>
 int main()
 {
-	int distance=9;
-	int order_value=55000 ;
+	int distance=-9;
+	int order_value=-55000 ;
 	if ( distance<=0 && order_value <0)
 	{
 		printf("INVALID");
