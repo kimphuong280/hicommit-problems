@@ -3,7 +3,7 @@
 int main()
 {
   int a;
-  printf("nhap so:");
+  printf("nhap so:");//in thông báo
   scanf("%d",&a);
   if(a%2==0)
   {
