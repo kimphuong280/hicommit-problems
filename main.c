@@ -7,12 +7,12 @@ int main()
   scanf("%d",&a);
   if(a%2==0)
   {
-    printf("\n la so chan");
+    printf("\n CHAN");
     
   }
   else
   {
-    printf("\n la so le");
+    printf("\n LE");
   }
   return 0;
 }
