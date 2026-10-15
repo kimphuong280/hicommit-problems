@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-	int distance=547000, order_value=8 ;
+	int distance=6, order_value=8000 ;
 	if ( distance<=0 && order_value <0)
 	{
 		printf(" INVALID");
@@ -14,7 +14,7 @@ int main()
 	{
 		printf("15000");
 	}
-		else if (" order_value <500000 && 6<=distance<=15")
+	else if (" order_value <500000 && 6<=distance<=15")
 	{
 		printf("25000");
 	}
