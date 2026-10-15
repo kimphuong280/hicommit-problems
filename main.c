@@ -2,9 +2,7 @@
 #include <string.h>
 int main()
 {
-  int a;
-  printf("nhap so:");//in thông báo
-  scanf("%d",&a);
+  int a=6;
   if(a%2==0)
   {
     printf("\n CHAN");
