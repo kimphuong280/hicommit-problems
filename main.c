@@ -1,20 +1,22 @@
 #include <stdio.h>
+#include <stdio.h>
 int main()
 {
-	int distance=6, order_value=8000 ;
+	int distance=9;
+	int order_value=55000 ;
 	if ( distance<=0 && order_value <0)
 	{
-		printf(" INVALID");
+		printf("INVALID");
 	}
-	else if ( order_value >=500000 && distance<15)
+	else if ( order_value >=500000 , distance<15)
 	{
 		printf("0");
 	}
-	else if (" order_value <500000 && 1<=distance<=5")
+	else if ( order_value <500000 , 1<=distance<=5)
 	{
 		printf("15000");
 	}
-	else if (" order_value <500000 && 6<=distance<=15")
+	else if ( order_value <500000 , distance<=15 && distance>=6)
 	{
 		printf("25000");
 	}
@@ -23,4 +25,4 @@ int main()
 		printf("40000");
 	}
 	return 0;
-}
+} 
