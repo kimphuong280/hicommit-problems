@@ -19,10 +19,6 @@ int main()
   {
     printf("HOC_BONG_GIOI");
   }
-  else if(7.0<=dtb && dtb<8.0 && 70<=drl && drl<80 && drl>=90 && 80<=drl && drl<90)
-  {
-    printf("HOC_BONG_KHA");
-  }
   else if(7.0<=dtb && dtb<8.0 && 70<=drl && drl<80)
   {
     printf("HOC_BONG_KHA");
