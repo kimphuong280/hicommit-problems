@@ -19,7 +19,7 @@ int main()
   {
     printf("HOC_BONG_GIOI");
   }
-  else if((7.0<=dtb<8.0 && 70<=drl<80||drl>=90||80<=drl<90)
+  else if(7.0<=dtb<8.0 && 70<=drl<80||drl>=90||80<=drl<90)
   {
     printf("HOC_BONG_KHA");
   }
@@ -35,6 +35,5 @@ int main()
   {
     printf("KHONG_DAT");
   }
-  
   return 0;
 }
