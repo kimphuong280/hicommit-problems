@@ -23,7 +23,7 @@ int main()
   {
     printf("HOC_BONG_KHA");
   }
-  else if(7.0<=dtb && dtb<8.0 && drl>=90 && 80<=drl)
+  else if(7.0<=dtb && dtb<8.0 && drl<90 && 80<=drl)
   {
     printf("HOC_BONG_KHA");
   }
@@ -36,7 +36,7 @@ int main()
     printf("HOC_BONG_KHA");
   }
   else if(dtb>=9.0 && 70<=drl && drl<80)
-    {
+  {
     printf("HOC_BONG_KHA");
   }
   else
